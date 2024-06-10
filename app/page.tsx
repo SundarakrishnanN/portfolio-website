@@ -83,7 +83,17 @@ export default function Component() {
                   </Link>
                 </div>
               </div>
-        
+              <div className="relative z-10 grid grid-cols-3 gap-4 style={{ float: 'right' }}">
+                  <div className="col-span-2 row-span-2 rounded-xl bg-gradient-to-br from-[#0f172a]/50 to-[#1e293b]/50 p-4 backdrop-blur-lg animate-fade-in-up">
+                    <img
+                      src="/data-science.png"
+                      width="800"
+                      height="600"
+                      alt="Computer Science"
+                      className="w-full h-full object-cover rounded-xl animate-zoom-in"
+                    />
+                  </div>
+                </div>
             </div>
           </div>
         </section>
@@ -134,7 +144,7 @@ export default function Component() {
             <div className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3 animate-fade-in-up">
               <div className="rounded-xl bg-gradient-to-br from-[#0f172a]/50 to-[#1e293b]/50 p-4 backdrop-blur-lg animate-slide-up">
                 <img
-                  src="/placeholder.svg"
+                  src="\"
                   width="400"
                   height="300"
                   alt="Project 1"
