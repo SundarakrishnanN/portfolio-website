@@ -9,7 +9,7 @@ import { Linkedin,Mail } from "lucide-react"
 
 export default function Component() {
   return (
-    <div className="flex flex-col min-h-[100dvh] bg-gradient-to-br from-[#1e293b] to-[#0f172a] text-gray-50 animate-fade-in">
+    <div className="flex flex-col min-h-screen bg-gradient-to-br from-[#1e293b] to-[#0f172a] text-gray-50 animate-fade-in">
       <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link href="#" className="flex items-center justify-center animate-bounce" prefetch={false}>
           <MountainIcon className="h-6 w-6" />
@@ -50,7 +50,6 @@ export default function Component() {
                     width="128"
                     height="128"
                     alt="Profile"
-                    
                   />
                 </div>
                 <div className="space-y-2 text-center">
@@ -83,17 +82,13 @@ export default function Component() {
                   </Link>
                 </div>
               </div>
-              <div className="relative z-10 grid grid-cols-3 gap-4 style={{ float: 'right' }}">
-                  <div className="col-span-2 row-span-2 rounded-xl bg-gradient-to-br from-[#0f172a]/50 to-[#1e293b]/50 p-4 backdrop-blur-lg animate-fade-in-up">
-                    <img
-                      src="/data-science.png"
-                      width="800"
-                      height="600"
-                      alt="Computer Science"
-                      className="w-full h-full object-cover rounded-xl animate-zoom-in"
-                    />
-                  </div>
-                </div>
+              <div className="hidden md:flex items-center justify-center">
+                <img
+                  src="/data-science.png"
+                  className="w-full max-w-sm object-cover rounded-xl animate-zoom-in"
+                  alt="Computer Science"
+                />
+              </div>
             </div>
           </div>
         </section>
@@ -144,11 +139,12 @@ export default function Component() {
             <div className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3 animate-fade-in-up">
               <div className="rounded-xl bg-gradient-to-br from-[#0f172a]/50 to-[#1e293b]/50 p-4 backdrop-blur-lg animate-slide-up">
                 <img
-                  src="/placeholder.svg"
+                  src="/vehicle.png"
                   width="400"
                   height="300"
                   alt="Project 1"
-                  className="w-full h-full object-cover rounded-xl animate-zoom-in"
+                  className="w-70 h-64 object-cover rounded-xl animate-zoom-in"
+       
                 />
                 <div className="mt-4 space-y-2">
                   <h3 className="text-lg font-bold animate-fade-in-up">Vehicle Mirror Detection using YOLOv8</h3>
