@@ -137,7 +137,7 @@ export default function Component() {
               </div>
             </div>
             <div className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3 animate-fade-in-up">
-              <div className="rounded-xl bg-gradient-to-br from-[#0f172a]/50 to-[#1e293b]/50 p-4 backdrop-blur-lg animate-slide-up">
+            <div className="rounded-xl bg-gradient-to-br from-[#0f172a]/50 to-[#1e293b]/50 p-4 backdrop-blur-lg animate-slide-up">
                 <img
                   src="/vehicle.png"
                   width="400"
@@ -146,8 +146,8 @@ export default function Component() {
                   className="w-70 h-64 object-cover rounded-xl animate-zoom-in"
        
                 />
-                <div className="mt-4 space-y-2">
-                  <h3 className="text-lg font-bold animate-fade-in-up">Vehicle Mirror Detection using YOLOv8</h3>
+                  <div className="mt-4 space-y-2">
+                  <h3 className="text-lg font-bold animate-fade-in-up">Vehicle Mirror Detection</h3>
                   <p className="text-sm text-gray-300 animate-fade-in-up">
                       A research project that uses YOLOv8 to detect rear view mirrors of vehicles real-time. Led to successful publication at ICCCI IEEE Conference 2024.
                   </p>
@@ -160,11 +160,11 @@ export default function Component() {
               </div>
               <div className="rounded-xl bg-gradient-to-br from-[#0f172a]/50 to-[#1e293b]/50 p-4 backdrop-blur-lg animate-slide-up">
                 <img
-                  src="/placeholder.svg"
+                  src="/gatekeeper.png"
                   width="400"
                   height="300"
                   alt="Project 2"
-                  className="w-full h-full object-cover rounded-xl animate-zoom-in"
+                  className="w-70 h-64 object-cover rounded-xl animate-zoom-in"
                 />
                 <div className="mt-4 space-y-2">
                   <h3 className="text-lg font-bold animate-fade-in-up">GateKeeper</h3>
@@ -180,11 +180,11 @@ export default function Component() {
               </div>
               <div className="rounded-xl bg-gradient-to-br from-[#0f172a]/50 to-[#1e293b]/50 p-4 backdrop-blur-lg animate-slide-up">
                 <img
-                  src="/placeholder.svg"
+                  src="/aquametrics.png"
                   width="400"
                   height="300"
                   alt="Project 3"
-                  className="w-full h-full object-cover rounded-xl animate-zoom-in"
+                  className="w-70 h-64 object-cover rounded-xl animate-zoom-in"
                 />
                 <div className="mt-4 space-y-2">
                   <h3 className="text-lg font-bold animate-fade-in-up">AquaMetrics</h3>
