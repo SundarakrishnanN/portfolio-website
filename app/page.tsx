@@ -144,22 +144,21 @@ export default function Component() {
             <div className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3 animate-fade-in-up">
               <div className="rounded-xl bg-gradient-to-br from-[#0f172a]/50 to-[#1e293b]/50 p-4 backdrop-blur-lg animate-slide-up">
                 <img
-                  src="\"
+                  src="/placeholder.svg"
                   width="400"
                   height="300"
                   alt="Project 1"
                   className="w-full h-full object-cover rounded-xl animate-zoom-in"
                 />
                 <div className="mt-4 space-y-2">
-                  <h3 className="text-lg font-bold animate-fade-in-up">Project 1</h3>
+                  <h3 className="text-lg font-bold animate-fade-in-up">Vehicle Mirror Detection using YOLOv8</h3>
                   <p className="text-sm text-gray-300 animate-fade-in-up">
-                    A web application that uses machine learning to automatically generate personalized workout
-                    routines.
+                      A research project that uses YOLOv8 to detect rear view mirrors of vehicles real-time. Led to successful publication at ICCCI IEEE Conference 2024.
                   </p>
                   <div className="flex gap-2 animate-fade-in-up">
-                    <Badge variant="secondary">React</Badge>
-                    <Badge variant="secondary">TensorFlow</Badge>
-                    <Badge variant="secondary">Flask</Badge>
+                    <Badge variant="secondary">Python</Badge>
+                    <Badge variant="secondary">YOLOv8</Badge>
+                    <Badge variant="secondary">OpenCV</Badge>
                   </div>
                 </div>
               </div>
@@ -172,14 +171,14 @@ export default function Component() {
                   className="w-full h-full object-cover rounded-xl animate-zoom-in"
                 />
                 <div className="mt-4 space-y-2">
-                  <h3 className="text-lg font-bold animate-fade-in-up">Project 2</h3>
+                  <h3 className="text-lg font-bold animate-fade-in-up">GateKeeper</h3>
                   <p className="text-sm text-gray-300 animate-fade-in-up">
-                    A mobile app that uses computer vision to help visually impaired users navigate their surroundings.
+                    An e-approval system website for event permission letters at IEEE-RVCE. Lead the development of the website from scratch. Webiste aims to save time taken in getting event approvals.
                   </p>
                   <div className="flex gap-2 animate-fade-in-up">
-                    <Badge variant="secondary">Flutter</Badge>
-                    <Badge variant="secondary">OpenCV</Badge>
-                    <Badge variant="secondary">Dart</Badge>
+                    <Badge variant="secondary">Java</Badge>
+                    <Badge variant="secondary">SpringBoot</Badge>
+                    <Badge variant="secondary">Nextjs</Badge>
                   </div>
                 </div>
               </div>
@@ -192,15 +191,15 @@ export default function Component() {
                   className="w-full h-full object-cover rounded-xl animate-zoom-in"
                 />
                 <div className="mt-4 space-y-2">
-                  <h3 className="text-lg font-bold animate-fade-in-up">Project 3</h3>
+                  <h3 className="text-lg font-bold animate-fade-in-up">AquaMetrics</h3>
                   <p className="text-sm text-gray-300 animate-fade-in-up">
-                    A desktop application that uses natural language processing to summarize long-form articles and
-                    documents.
+                  Created an IOT based smart water monitoring system. Created and deployed a functional Flask Website
+                  that lets users login and view smart analytics in their dashboard.
                   </p>
                   <div className="flex gap-2 animate-fade-in-up">
                     <Badge variant="secondary">Python</Badge>
-                    <Badge variant="secondary">NLTK</Badge>
-                    <Badge variant="secondary">Electron</Badge>
+                    <Badge variant="secondary">Flask</Badge>
+                    <Badge variant="secondary">Javascript</Badge>
                   </div>
                 </div>
               </div>
