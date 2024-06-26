@@ -98,7 +98,7 @@ export default function Component() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl animate-fade-in-up">About Me</h2>
                 <p className="max-w-[900px] text-gray-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed animate-fade-in-up">
-                  I am a passionate 2nd year computer science student at RV College of Engineering, and also the Webmaster at IEEE-RVCE.I have great interest towards web development and machine learning. I actively look forward to build and explore stuff in these vast domains.
+                  I am a passionate 2nd year computer science student at RV College of Engineering, and also the Webmaster at IEEE-RVCE. I have great interest towards web development and machine learning. I actively look forward to build and explore stuff in these vast domains.
                 </p>
               </div>
             </div>
