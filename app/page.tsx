@@ -17,21 +17,21 @@ export default function Component() {
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link
-            href="#"
+            href="#about"
             className="text-sm font-medium hover:underline underline-offset-4 animate-pulse"
             prefetch={false}
           >
             About
           </Link>
           <Link
-            href="#"
+            href="#projects"
             className="text-sm font-medium hover:underline underline-offset-4 animate-pulse"
             prefetch={false}
           >
             Projects
           </Link>
           <Link
-            href="#"
+            href="#contact"
             className="text-sm font-medium hover:underline underline-offset-4 animate-pulse"
             prefetch={false}
           >
@@ -92,7 +92,7 @@ export default function Component() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-[#0f172a]/10 to-[#1e293b]/10 animate-fade-in">
+        <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-[#0f172a]/10 to-[#1e293b]/10 animate-fade-in">
           <div className="container px-4 md:px-6 space-y-12">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -125,7 +125,7 @@ export default function Component() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-[#0f172a]/20 to-[#1e293b]/20 animate-fade-in">
+        <section id="projects" className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-[#0f172a]/20 to-[#1e293b]/20 animate-fade-in">
           <div className="container px-4 md:px-6 space-y-12">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -202,7 +202,7 @@ export default function Component() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-[#0f172a]/30 to-[#1e293b]/30 animate-fade-in">
+        <section id="contact" className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-[#0f172a]/30 to-[#1e293b]/30 animate-fade-in">
   <div className="container px-4 md:px-6 space-y-12">
     <div className="flex flex-col items-center justify-center space-y-4 text-center">
       <div className="space-y-2">
