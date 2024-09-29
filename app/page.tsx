@@ -60,7 +60,7 @@ export default function Component() {
                 </div>
                 <div className="flex gap-4 animate-fade-in-up">
                   <Link
-                    href="https://drive.google.com/file/d/1Ut6ypJPHGmJDJzRTQYOM33eapmo26TMh/view"
+                    href="https://drive.google.com/file/d/1QNi8KaU4M41Ilq0oBxk5gjAAaXLKTiAN/view?usp=drive_link"
                     className="inline-flex h-9 items-center justify-center rounded-md bg-[#1e293b] px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-[#1e293b]/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#0f172a] disabled:pointer-events-none disabled:opacity-50 animate-pulse"
                     prefetch={false}
                   >
