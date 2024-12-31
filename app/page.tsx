@@ -22,7 +22,7 @@ export default function Home() {
       <motion.section className="text-center space-y-4" {...fadeInUp}>
         <h1 className="text-4xl font-bold mb-4 text-[#3182CE]">Sundarakrishnan N</h1>  {/* Reduced font size */}
         <p className="text-lg text-[#4A5568] max-w-2xl mx-auto">  {/* Reduced font size */}
-          Passionate Web Developer & ML Researcher with experience in Springboot, Python, Next.js and Computer. 
+          Passionate Web Developer & ML Researcher with experience in Springboot, Python, Next.js and Computer Vision. 
           Committed to creating innovative solutions and contributing to the tech community.
         </p>
         <motion.div
