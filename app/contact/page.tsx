@@ -13,7 +13,7 @@ const fadeInUp = {
 export default function Contact() {
   return (
     <motion.div 
-      className="space-y-12"
+      className="space-y-12 pt-20"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}

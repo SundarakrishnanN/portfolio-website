@@ -37,13 +37,13 @@ const fadeInUp = {
 export default function Projects() {
   return (
     <motion.div 
-      className="space-y-12"
+      className="space-y-12 pt-20"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
     >
       <motion.h1 
-        className="text-4xl font-bold mb-8 text-[#3182CE]"
+        className="text-4xl font-bold mb-8 text-[#3182CE] "
         variants={fadeInUp}
         initial="initial"
         animate="animate"

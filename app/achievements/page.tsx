@@ -27,7 +27,7 @@ export default function Achievements() {
       transition={{ duration: 0.5 }}
     >
       <motion.h1 
-        className="text-4xl font-bold mb-8 text-[#3182CE]"
+        className="text-4xl font-bold mb-8 text-[#3182CE] pt-20"
         variants={fadeInUp}
         initial="initial"
         animate="animate"
