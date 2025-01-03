@@ -18,7 +18,7 @@ const publications = [
     journal: 'IEEE Access', 
     year: 2024, 
     link: '', 
-    description: 'Applied to IEEE Open Access Journal and awaiting paper review.' 
+    description: 'Accepted for publication at IEEE Open Access.' 
   },
 
 ]
