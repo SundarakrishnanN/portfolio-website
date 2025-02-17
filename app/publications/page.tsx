@@ -4,22 +4,23 @@ import { BookOpen } from 'lucide-react'
 import { motion } from 'framer-motion'
 
 const publications = [
-  { 
+    {   
     id: 1, 
+    title: 'Vehicle Turn Pattern Counting and Short Term Forecasting Using Deep Learning for Urban Traffic Management System', 
+    journal: 'IEEE Access', 
+    year: 2024, 
+    link: 'https://ieeexplore.ieee.org/document/10830516', 
+    description: 'Published in IEEE Open Access (Q1 Journal).' 
+  },
+  { 
+    id: 2, 
     title: 'Vehicle Mirror Detection', 
     conference: '2024 International Conference on Computer Communication and Informatics', 
     year: 2024, 
     link: '', 
     description: 'A research project that uses YOLOv8 to detect rear view mirrors of vehicles real-time. Led to acceptance for publication at ICCCI IEEE Conference 2024.' 
   },
-  {   
-    id: 2, 
-    title: 'Vehicle Turn Pattern Counting and Forecasting', 
-    journal: 'IEEE Access', 
-    year: 2024, 
-    link: '', 
-    description: 'Accepted for publication at IEEE Open Access.' 
-  },
+
 
 ]
 
