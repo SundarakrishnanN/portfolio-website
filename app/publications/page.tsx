@@ -8,16 +8,16 @@ const publications = [
     id: 1, 
     title: 'Vehicle Turn Pattern Counting and Short Term Forecasting Using Deep Learning for Urban Traffic Management System', 
     journal: 'IEEE Access', 
-    year: 2024, 
+    year: 2025, 
     link: 'https://ieeexplore.ieee.org/document/10830516', 
     description: 'Published in IEEE Open Access (Q1 Journal).' 
   },
   { 
     id: 2, 
-    title: 'Vehicle Mirror Detection', 
-    conference: '2024 International Conference on Computer Communication and Informatics', 
-    year: 2024, 
-    link: '', 
+    title: 'YOLOv8: A Novel Vehicle Mirror Detection Algorithm with Enhanced Performance using Deep Learning', 
+    conference: '2025 International Conference on Electronics and Renewable Systems (ICEARS)', 
+    year: 2025, 
+    link: 'https://ieeexplore.ieee.org/document/10940095', 
     description: 'A research project that uses YOLOv8 to detect rear view mirrors of vehicles real-time. Led to acceptance for publication at ICCCI IEEE Conference 2024.' 
   },
 
